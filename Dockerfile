@@ -13,4 +13,4 @@ RUN unzip /tmp/pb.zip -d /pb/
 EXPOSE 443
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve",  "--https=pocketbase-railway-production.up.railway.app:443"]
+CMD ["/pb/pocketbase", "serve",  "--https=0.0.0.0:$PORT"]
