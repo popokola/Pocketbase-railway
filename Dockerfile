@@ -14,4 +14,4 @@ RUN unzip /tmp/pb.zip -d /pb/
 EXPOSE 8080
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve",  "--http=0.0.0.0:`${PORT}`"]
+CMD ["/pb/pocketbase", "serve",  "--http=0.0.0.0:080"]
