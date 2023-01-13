@@ -13,4 +13,4 @@ RUN unzip /tmp/pb.zip -d /pb/
 EXPOSE 80
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve",  "--http=0.0.0.0:80"]
+CMD ["/pb/pocketbase", "serve",  "--http=pocketbase-railway-production.up.railway.app:80"]
