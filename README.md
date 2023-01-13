@@ -13,4 +13,4 @@
 
 ### Worth mentioning 
 
-You may not want to deploy your Pocketbase server each time there is a change in your repo.  You may add a rule in railway app or just disable the auto-merging afterwards. Otherwise will loose your re-configure and loose your server.
+You may not want to deploy your Pocketbase server each time there is a change in your repo.  You may add a rule in railway app or just disable the auto-merging afterwards. Otherwise you will loose your server data.
