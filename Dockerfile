@@ -10,7 +10,7 @@ RUN apk add --no-cache \
 ADD https://github.com/pocketbase/pocketbase/releases/download/v${PB_VERSION}/pocketbase_${PB_VERSION}_linux_amd64.zip /tmp/pb.zip
 RUN unzip /tmp/pb.zip -d /pb/
 
-EXPOSE 443
+EXPOSE 80
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve",  "--https=104.196.232.237:443"]
+CMD ["/pb/pocketbase", "serve",  "--http=127.0.0.1:80"]
